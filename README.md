@@ -2,11 +2,11 @@
 
 ## Overview
 
-make it shorter This project explores the application of sentiment analysis in developing a trading strategy. It employs 2 sentiment analysis tools to derive sentiment scores from Bitcoin news articles and uses these scores to inform trading decisions.
+This project explores the application of sentiment analysis in developing a trading strategy. It employs 2 sentiment analysis tools to derive sentiment scores from Bitcoin news articles and uses these scores to inform trading decisions.
 
 ## Data
 
-The dataset includes Bitcoin news articles from January 1, 2020, to December 31, 2022, featuring timestamps and article titles. The titles are normalized through a series of preprocessing steps to enhance the accuracy of sentiment analysis. This includes removing non-English characters and numbers, correcting contractions, tokenizing, stemming, and removing stopwords. The normalized titles are then analyzed using VADER and TextBlob to obtain sentiment scores.
+The dataset includes Bitcoin news articles from January 1, 2020, to December 31, 2022, featuring timestamps and article titles. The titles are normalized through a series of preprocessing steps to enhance the accuracy of sentiment analysis. The normalized titles are then analyzed using VADER and TextBlob to obtain sentiment scores.
 
 ## Sentiment Analysis Tools
 
