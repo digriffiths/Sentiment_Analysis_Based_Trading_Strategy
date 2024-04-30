@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project explores the application of sentiment analysis in developing a trading strategy. It employs VADER (Valence Aware Dictionary and sEntiment Reasoner) and TextBlob sentiment analysis tools to derive sentiment scores from Bitcoin news articles. These scores are then used to inform trading decisions.
+make it shorter This project explores the application of sentiment analysis in developing a trading strategy. It employs 2 sentiment analysis tools to derive sentiment scores from Bitcoin news articles and uses these scores to inform trading decisions.
 
 ## Data
 
