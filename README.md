@@ -2,11 +2,11 @@
 
 ## Overview
 
-This project showcases how sentiment analysis can be utilized as a trading strategy by analyzing Bitcoin news headlines. Sentiment scores extracted from these headlines inform trading decisions.
+This project explores the application of sentiment analysis in developing a trading strategy. It generates sentiment scores using various analyzers to inform trading decisions.
 
 ## Data
 
-The data consists of Bitcoin news articles from January 1, 2020, to December 31, 2022. The dataset includes timestamps and article titles. The titles are normalizes and processed to extract sentiment scores.
+The data consists of Bitcoin news articles from January 1, 2020, to December 31, 2022. The dataset includes timestamps and article titles. The titles are normalized and processed to extract sentiment scores.
 
 ## Sentiment Analysis
 
@@ -14,7 +14,7 @@ We utilize the VADER (Valence Aware Dictionary and sEntiment Reasoner) and TextB
 
 ## Features
 
-- **Sentiment Scoring**: Assigns sentiment scores to Bitcoin news headlines using VADER.
+- **Sentiment Scoring**: Assigns sentiment scores to Bitcoin news headlines using VADER and Textblob.
 - **Market Data Integration**: Adds Bitcoin market data (price, returns) to the sentiment data.
 - **Resampling**: Converts the high-frequency sentiment and market data into daily frequency for analysis.
 - **Strategy Execution**: Implements a trading strategy based on the sentiment and market data.
