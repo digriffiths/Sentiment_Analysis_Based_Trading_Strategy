@@ -2,11 +2,11 @@
 
 ## Description
 
-This project explores the application of sentiment analysis in developing a trading strategy. It employs 2 sentiment analysis tools, VADER and TextBlob, to derive sentiment scores from Bitcoin news articles and uses these scores to inform trading decisions.
+This project focuses on leveraging news article sentiments to inform trading strategies. It starts by using a custom-built tool to scrape news articles, extracting titles and dates, which are then stored in a pandas DataFrame. The sentiment of each article is analyzed using VADER and TextBlob, two different sentiment analysis tools. These sentiments are used to generate trading signals that dictate whether to take a long, short, or neutral position based on the sentiment score. The trading strategy's performance, influenced by these signals, is visualized to compare the effectiveness of the sentiment analysis methods over time, providing insights into how news sentiment impacts market behavior.
 
 ## Why?
 
-The motivation behind this project is to leverage the predictive power of sentiment analysis to enhance trading strategies. By analyzing the sentiment from Bitcoin news articles, the project aims to identify potential market movements and improve trading decisions, ultimately aiming to increase profitability and reduce risk.
+The project was initiated to investigate the impact of news on financial markets, specifically to explore if it is possible to generate trading signals based on news sentiment analysis. The promising results indicate the potential for developing a model suitable for live trading, providing valuable insights into how news sentiment correlates with market movements and affects trading outcomes.
 
 ## Data
 
