@@ -39,14 +39,15 @@ To use this project for sentiment analysis and trading signal generation, follow
    Execute the scraper to collect the latest news articles:
 
    ```
-   news_retreiver.py
+   get_news.ipynb
+   news_bitcoin_2020-01-01_2022-12-31.csv
    ```
 
 4. **Run the sentiment_analyser.ipynb to analyse the sentiment of the news articles:**
    Analyze the sentiments of the scraped news articles using:
 
    ```
-   python sentiment_analysis.py
+   sentiment_analyser.ipynb
    ```
 
 For detailed documentation on each step, refer to the respective script's comments or the project's wiki.
