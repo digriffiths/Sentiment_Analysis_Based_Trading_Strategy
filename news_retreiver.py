@@ -4,11 +4,11 @@ import pandas as pd
 
 class NewsRetriever:
     """
-    A class used to scrape news articles from Google News based on specific queries and date ranges.
+    A class used to scrape news articles based on specific queries and date ranges.
     """
     def __init__(self, base_url:str):
         """
-        Initializes the NewsRetriever with the base URL for Google News.
+        Initializes the NewsRetriever with the base URL.
         """
         self.base_url = base_url
 
