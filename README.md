@@ -1,8 +1,12 @@
-# Sentiment Analysis Based Trading Strategy
+# News Sentiment Analysis For Algorithmic Trading
 
-## Overview
+## Description
 
-This project explores the application of sentiment analysis in developing a trading strategy. It employs 2 sentiment analysis tools to derive sentiment scores from Bitcoin news articles and uses these scores to inform trading decisions.
+This project explores the application of sentiment analysis in developing a trading strategy. It employs 2 sentiment analysis tools, VADER and TextBlob, to derive sentiment scores from Bitcoin news articles and uses these scores to inform trading decisions.
+
+## Why?
+
+The motivation behind this project is to leverage the predictive power of sentiment analysis to enhance trading strategies. By analyzing the sentiment from Bitcoin news articles, the project aims to identify potential market movements and improve trading decisions, ultimately aiming to increase profitability and reduce risk.
 
 ## Data
 
@@ -30,6 +34,6 @@ The dataset includes Bitcoin news articles from January 1, 2020, to December 31,
 5. **Run Strategy**: Implement the trading strategy using the processed data.
 6. **Plot Results**: Display the strategy's performance over time through visualizations.
 
-## Installation
+## Contributing
 
-To set up the project environment, ensure Python is installed and then create a virtual environment:
+Contributions to this project are welcome! To contribute, please fork the repository, create a new branch for your contributions, and submit a pull request for review.
