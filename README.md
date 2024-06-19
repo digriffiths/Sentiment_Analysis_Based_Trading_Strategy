@@ -1,4 +1,4 @@
-# Sentiment Analysis Based Trading Strategy
+# News Sentiment Analysis For Algorithmic Trading
 
 ## Overview
 
