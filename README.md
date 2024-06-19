@@ -35,19 +35,19 @@ To use this project for sentiment analysis and trading signal generation, follow
    pip install -r requirements.txt
    ```
 
-3. **Run the 01_get_news.ipynb to download news articles or use the csv provided:**
+3. **Use the example notebook 02_sentiment_analyser.ipynb to analyse the sentiment of the news articles:**
+   Analyze the sentiments of the scraped news articles using:
+
+   ```
+   02_sentiment_analyser.ipynb
+   ```
+
+4. **Use the example notebook to download news articles if you would rather use your own:**
    Execute the scraper to collect the latest news articles:
 
    ```
    01_get_news.ipynb
    news_bitcoin_2020-01-01_2022-12-31.csv
-   ```
-
-4. **Run the 02_sentiment_analyser.ipynb to analyse the sentiment of the news articles:**
-   Analyze the sentiments of the scraped news articles using:
-
-   ```
-   02_sentiment_analyser.ipynb
    ```
 
 For detailed documentation on each step, refer to the respective script's comments or the project's wiki.
