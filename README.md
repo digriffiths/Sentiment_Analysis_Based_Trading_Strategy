@@ -10,20 +10,12 @@ The project was initiated to investigate the impact of news on financial markets
 
 ## Data
 
-The dataset includes Bitcoin news articles from January 1, 2020, to December 31, 2022, featuring timestamps and article titles. The titles are normalized through a series of preprocessing steps to enhance the accuracy of sentiment analysis. The normalized titles are then analyzed using VADER and TextBlob to obtain sentiment scores.
+The dataset includes Bitcoin news articles from January 1, 2020, to December 31, 2022, featuring timestamps and article titles. The titles are normalized through a series of preprocessing steps to enhance the accuracy of sentiment analysis.
 
 ## Sentiment Analysis Tools
 
 - **VADER**: Optimized for social media texts, VADER provides sentiment scores using a human-curated lexicon, effective across various domains without requiring training data.
 - **TextBlob**: Offers a straightforward API for common NLP tasks, ideal for rapid sentiment analysis evaluations.
-
-## Features
-
-- **Sentiment Scoring**: Calculates sentiment scores for Bitcoin news headlines using VADER and TextBlob.
-- **Market Data Integration**: Enhances sentiment data with Bitcoin market data including price and returns.
-- **Data Resampling**: Transforms high-frequency sentiment and market data into a daily frequency for analysis.
-- **Strategy Execution**: Deploys a trading strategy based on sentiment and market data.
-- **Visualization**: Graphically represents the trading strategy's performance.
 
 ## Usage
 
