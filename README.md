@@ -19,12 +19,37 @@ The dataset includes Bitcoin news articles from January 1, 2020, to December 31,
 
 ## Usage
 
-1. **Data Preparation**: Import and preprocess the Bitcoin news data.
-2. **Sentiment Scoring**: Conduct sentiment analysis on the cleaned data.
-3. **Market Data Integration**: Merge Bitcoin market data with sentiment scores.
-4. **Data Resampling**: Aggregate the combined data to a daily frequency.
-5. **Run Strategy**: Implement the trading strategy using the processed data.
-6. **Plot Results**: Display the strategy's performance over time through visualizations.
+To use this project for sentiment analysis and trading signal generation, follow these steps:
+
+1. **Clone the Repository:**
+
+   ```
+   git clone https://github.com/digriffiths/Sentiment_Analysis_Based_Trading_Strategy.git
+   cd news-sentiment-trading
+   ```
+
+2. **Install Dependencies:**
+   Ensure you have Python installed, then run:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. **Run the get_news.ipynb to download news articles or use the csv provided:**
+   Execute the scraper to collect the latest news articles:
+
+   ```
+   news_retreiver.py
+   ```
+
+4. **Run the sentiment_analyser.ipynb to analyse the sentiment of the news articles:**
+   Analyze the sentiments of the scraped news articles using:
+
+   ```
+   python sentiment_analysis.py
+   ```
+
+For detailed documentation on each step, refer to the respective script's comments or the project's wiki.
 
 ## Contributing
 
